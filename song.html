@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> I am me!</title>
+	<link rel="stylesheet" href="style.css">
+  <style>
+  		.menu-bar {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			background-size: cover;
+			height: 50px; /* Adjust the height as needed */
+			z-index: 1; 
+		}
+  </style>
+<head>
+<body>
+  
+  	<div class="menu-bar">
+	  <a href="index.html">
+	  <img src="picture/menu.png" style="width: 60px; height: 60px; padding: 10px;">
+	  </a>
+	</div>
+
+  <header>	<h1 style="text-align: center;"> I AM ME!</h1> 	</header>
+  
+  <nav class="navbar">
+    <ul>
+      <li><a href="thisisme.html">HOME</a></li>
+      <li><a href="gegsh.html">FAMILY</a></li>
+      <li><a href="song.html">TRACK</a></li>
+       <li><a href="picture.html">PICTURE</a></li>
+      <li><a href="likes.html">INFORMATION</a></li>
+    </ul>
+  </nav>
+    
+    <main>
+  <h1>PLAYLIST</h1>
+  
+  <ul class="playlist">
+    <li class="playlist-item">
+      <div class="song-container">
+        <img src="picture/image1.jpeg" length="100" width="100" alt="Album Cover" class="album-cover">
+        <div class="song-details">
+          <div class="song-title">A Sky Full of Star</div>
+          <div class="artist-name">COLDPLAY</div>
+        </div>
+      </div>
+      <audio controls>
+        <source src="music/jm.mp3" type="audio/mpeg">
+      </audio>
+    </li>
+    <li class="playlist-item">
+      <div class="song-container">
+        <img src="picture/wyatimage.png" length="100" width="100" alt="Album Cover" class="album-cover">
+        <div class="song-details">
+          <div class="song-title">WYAT</div>
+          <div class="artist-name">SB19</div>
+        </div>
+      </div>
+      <audio controls>
+        <source src="music/wyat.mp3" type="audio/mpeg">
+      </audio>
+    </li>
+  </ul>
+      
+      <h1>VIDEO</h1>
+          <video controls autoplay src="Video/birthday.mp4" length="880" width="880"></video>
+    
+    
+</main>
+</body>
+</html>

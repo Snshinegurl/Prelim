@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>I am me!</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Add this style for side-by-side layout */
+    .main-content {
+      display: flex;
+      align-items: center;
+    }
+
+    /* Adjust spacing if needed */
+    img {
+      margin-right: 20px;
+    }
+
+    /* Style for transparent tables */
+    table {
+      border-collapse: collapse;
+      background: transparent;
+      border: none;
+      width: 100%;
+    }
+
+    th {
+  background-color: none; /* White background for table headers */
+  length: 40;
+  color: white;
+  margin: 0; /* Remove margin to bring header closer to the content */
+}
+
+/* Style for table description */
+.description {
+  text-align: left;
+  color: white;
+  padding: 0; /* Remove padding to reduce space */
+  margin: 0; /* Remove margin to bring content closer to the header */
+  text-align: center;
+}
+
+    /* Style for table data */
+    td {
+      padding: 0;
+      margin: 0px;
+      vertical-align: top;
+      text-align: center;
+    }
+
+
+    /* Style for page background */
+    body {
+      background-color: white; /* White background for the page */
+    }
+
+    /* Style for h1 (page header) */
+    h1 {
+      color: white; /* White color for the page header text */
+    }
+  		.menu-bar {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			background-size: cover;
+			height: 50px; /* Adjust the height as needed */
+			z-index: 1; 
+		}
+  </style>
+</head>
+
+	<div class="menu-bar">
+	  <a href="index.html">
+	  <img src="picture/menu.png" style="width: 60px; height: 60px; padding: 10px;">
+	  </a>
+	</div>
+
+<body>
+  <header>	<h1 style="text-align: center;"> I AM ME!</h1> 	</header>
+
+  <nav class="navbar">
+    <ul>
+      <li><a href="thisisme.html">HOME</a></li>
+      <li><a href="gegsh.html">FAMILY</a></li>
+      <li><a href="song.html">TRACK</a></li>
+      <li><a href="picture.html">PICTURE</a></li>
+      <li><a href="likes.html">INFORMATION</a></li>
+    </ul>
+  </nav>
+
+  <h1>FAMILY</h1>
+  <br>
+
+  <table>
+    <tr>
+      <td>
+        <table>
+          <tr>
+            <th colspan="2"> <!-- colspan="2" to span both columns -->
+              <h2>Papa</h2>
+            </th>
+          </tr>
+          <tr>
+            <td>
+              <img src="picture/papa.jpg" height="300" width="330">
+            </td>
+            <td class="description">
+              <p>Hardworking person. A fifty-one years old. Serve as an Barangay Tanod, dedicated for his job to keep safe our barangay.</p>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <table>
+          <tr>
+            <th colspan="2">
+              <h2>Mother</h2>
+            </th>
+          </tr>
+          <tr>
+            <td>
+              <img src="picture/mother.jpg" height="300" width="330">
+            </td>
+            <td class="description">
+              <p>Caring and always put her family first before herself. A Fifthy-One years of age. A private office clerk.</p>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <table>
+          <tr>
+            <th colspan="2">
+              <h2>Sister</h2>
+            </th>
+          </tr>
+          <tr>
+            <td>
+              <img src="picture/sister.jpg" height="300" width="330">
+            </td>
+            <td class="description">
+              <p>Talented and never to shy to show what can she do. </p>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+
+</html>
